@@ -1,3 +1,10 @@
+> **Experimental Kaythem maintenance fork — not a production release.**
+> This fork is maintained by Kaythem and is separate from upstream libp2p.
+> No Kaythem ML-DSA identity or post-quantum channel is implemented here yet.
+> Public availability is not a security audit or a claim of production readiness.
+> See [fork status and publication rules](KAYTHEM.md) and the
+> [security reporting policy](SECURITY.md). The upstream README follows.
+
 # Central repository for work on libp2p
 
 <a href="http://libp2p.io/"><img src="https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square" /></a>

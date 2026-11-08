@@ -21,3 +21,26 @@ no ML-DSA identity, PQ transport or consumer adoption. The compile control in
 Kaythem-P2P remains independently pinned until its integration is qualified.
 S-01-S-18 runtime/security acceptance and production budgets remain open.
 This branch is not a production-ready or fully security-qualified release.
+
+## Publication rules
+
+Experimental Kaythem-specific integration is developed and reviewed in private
+workspaces first. Publish only the reviewed, sanitized patch and evidence needed
+to understand it. Private development is release discipline, not a security claim.
+Do not publish private keys, seeds, secret-bearing signing fixtures, infrastructure
+credentials, live node configuration or sensitive operational/deployment details.
+Review the complete diff, commit history, branch/tag refs, logs and attachments
+before publishing; ignoring files is not a substitute for this review.
+
+Label proposed encodings, PQ Noise constructions and high-assurance profiles
+experimental until the exact construction is approved and the implementation is
+verified. Approval of a shared primitive or encoding does not verify an integrated
+channel. A build, public fork or primitive audit is not a full security audit.
+State which tests ran and which acceptance gates remain open; make no unsupported
+interoperability, production-readiness or whole-channel security-level claims.
+
+Preserve upstream MIT licensing, copyright headers and attribution. Review each
+new dependency's actual license and required notices before public introduction,
+including cryptographic dependencies. This branch currently adds no new
+cryptographic dependency; its initial code change is the cited upstream backport.
+Keep confidential reports in the private channel described in SECURITY.md.
